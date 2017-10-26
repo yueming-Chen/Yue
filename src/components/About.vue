@@ -1,7 +1,7 @@
 <template >
   <div class="container">
-    <section>
-      <img class="displayPhoto" alt="豎笛照片" />
+    <section class="show-container">
+      <img class="displayPhoto" src="../assets/about1.jpg" alt="豎笛照片" />
     </section>
     <section class="header">
       <div class="left-block">
@@ -14,19 +14,19 @@
       </div>
     </section>
     <section>
-      <img class="displayPhoto" alt="豎笛照片" />
+      <img class="displayPhoto" src="../assets/about2.png" alt="豎笛照片" />
     </section>
-    <section>
+    <section class="descri">
       <div>其實我不只程式</div>
       <div>我更熱愛著音樂與音樂圈的朋友們</div>
       <div>我想著自己敲著鍵盤</div>      
       <div>能對這個式微的古典圈子有什麼影響？</div>
     </section>
-    <section>
-      <img class="displayPhoto" alt="豎笛照片" />
+    <section class="last">
+      <img class="displayPhoto" src="../assets/about3.jpg" alt="豎笛照片" />
     </section>
     <section>
-      <div>走，去看看我的大學生涯還有做了些好玩的事情</div>
+      
     </section>
   </div>
   
@@ -59,9 +59,34 @@ export default {
       padding-left: 1em;
     }
   }
-  .displayPhoto {
-    width: 100vw;
-    height: 100vh;
+  .show-container {
+    // flex: 1;
+    width: 100%;
+    text-align: center;
+    .displayPhoto {
+      margin-top: 2em;
+      width: 80vw;
+      // height: 100vh;
+    }
+  }
+
+  .descri {
+    padding-left: 10em;
+    font-size: 1.4em;
+    letter-spacing: 5px;
+  }
+
+  .last {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    .displayPhoto {
+      width: 30%;
+      height: 30%;
+      margin-top: 2em;
+      margin-right: 5em;
+    }
   }
 }
 </style>
