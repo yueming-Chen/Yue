@@ -4,6 +4,8 @@ import HelloWorld from '@/components/HelloWorld'
 import aboutComponent from '@/components/About';
 import skillComponent from '@/components/Skill';
 import portfolioComponent from '@/components/Portfolio';
+import futureComponent from '@/components/Future';
+import contactComponent from '@/components/Contact';
 
 Vue.use(Router)
 
@@ -26,6 +28,14 @@ export default new Router({
       path: '/portfolio',
       name: 'portfolio',
       component: portfolioComponent
+    }, {
+      path: '/future',
+      name: 'future',
+      component: futureComponent
+    }, {
+      path: '/contact',
+      name: 'contact',
+      component: contactComponent
     },
   ]
 })

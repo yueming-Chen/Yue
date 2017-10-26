@@ -30,7 +30,7 @@
       </div>
     </router-link>
     
-    <router-link id="contact" to="/contactMe">
+    <router-link id="contact" to="/contact">
       <div class="item">
         <div>可</div>
         <div>以</div>
