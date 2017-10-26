@@ -6,23 +6,22 @@
 
 <script>
 export default {
-  name: 'app'
-}
+  name: "app"
+};
 </script>
 
 <style>
-body{
-  margin:0;
+body {
+  margin: 0;
 }
-*{
-  box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   color: #2c3e50;
-
 }
 </style>
